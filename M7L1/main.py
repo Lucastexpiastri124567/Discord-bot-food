@@ -24,4 +24,4 @@ async def check(ctx):
             await ctx.send(get_class(model_path="./keras_model.h5", labels_path="labels.txt", image_path=f"./{attachment.filename}"))
     else:
         await ctx.send("Olvidaste subir la imagen :(")
-bot.run("MTM4MDcxMjIyNTI5OTM3MDEyNw.Gpu0x3.kxVcnfWfFhl6qhJdyqzxqI_qFzHDK_tS8xuWnY")
+bot.run("")
